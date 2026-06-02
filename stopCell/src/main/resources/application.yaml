@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: stopCell
+
+  datasource:
+    url: jdbc:postgresql://25.32.125.64:5432/TIC
+    username: postgres
+    password: 09082006
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
